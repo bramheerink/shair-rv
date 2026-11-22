@@ -3,7 +3,18 @@
   "status": "draft",
   "udp_port": 60999,
   "endpoints": [
-    { "id": "otter", "host": "otter.shairapp.net" },
-    { "id": "lynx", "host": "lynx.shairapp.net" }
-  ]
+    {
+      "id": "otter",
+      "host": "otter.shairapp.net",
+      "public_key": "cf7c8addf57573f102d914b23e8167e8e6ab2914ed298cb38a2c537c7e9bcaa5"
+    },
+    {
+      "id": "lynx",
+      "host": "lynx.shairapp.net",
+      "public_key": "3b8c67a0fd8523397784dd1374b92b09d0a466e8222816eaf5596ac28f2ff9f5"
+    }
+  ],
+  "sequence": 1,
+  "expires_at": 1802260063,
+  "signature": "55410376a92692ddaea9942aedb368f3a76612093e8dbdd9c128dd06c59b277f17ad5d88ceab2aa65a82462db4ab04b97942743cf8cc871262c968d65171950d"
 }
